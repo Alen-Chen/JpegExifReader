@@ -15,9 +15,9 @@ Few steps to add this plugin into your phonegap project.
 		filename, 
 		function (return_length) { alert("length = " + return_length); },
 		function () {}
-	)`
-
-        `window.plugins.jpegExifReader.getWidth(
+	)
+	
+        window.plugins.jpegExifReader.getWidth(
                 filename, 
                 function (return_width) { alert("width = " + return_width); },
                 function () {}
