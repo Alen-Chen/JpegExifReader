@@ -8,20 +8,14 @@ Few steps to add this plugin into your phonegap project.
 1.	Add the jpegExifReader.js to 'assets/www' folder
 2.	Make a directory under 'src', named 'com/angrystone' then add the JpegExifReader.java to it.
 3.	Import the js file to your index.html. eg. `<script src="jpegExifReader.js"></script>`
-4.	Add the plugin in 'res/xml/config.xml'. eg. `<plugin name="JpegExifReader" value="com.angrystone.Jpeg"/>`
+4.	Add the plugin in 'res/xml/config.xml'. eg. `<plugin name="JpegExifReader" value="com.angrystone.JpegExifReader"/>`
 
 ### Example ###
 	`window.plugins.jpegExifReader.getLength(
 		filename, 
 		function (return_length) { alert("length = " + return_length); },
 		function () {}
-	)
-	
-        window.plugins.jpegExifReader.getWidth(
-                filename, 
-                function (return_width) { alert("width = " + return_width); },
-                function () {}
-        )`
+	)`
 
 ### License ###
 
